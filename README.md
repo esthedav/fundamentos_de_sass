@@ -5,7 +5,7 @@
 - **Tiempo**: *Contenido* 4 hrs / *Práctica* 22 hrs
 - **Proyecto**: Eco-store
 
-¡Construye desde cero una landing page y muéstrala con orgullo al mundo! Utiliza Sass para crear una página web con varias sesiones de estilos propios. Despliega tu proyecto en GitHub pages.
+¡Construye desde cero una landing page y muéstrela con orgullo al mundo! Utiliza Sass para crear una página web con varias sesiones de estilos propios. Despliega tu proyecto en GitHub pages.
 
 **Aprenderás a**:
 
@@ -24,6 +24,10 @@
 - [Instalación y configuración de entorno](./apuntes/instalacion_y_configuracion/instalacion_y_configuracion.md)
 
 ## Reglas y uso
+
+ - [Estructura de la hoja de estilos y variables](./apuntes/reglas_y_usos/estructura_de_la_hoja_de_estilos_y_variables.md)
+ - [At Rules: CSS y nesting](./apuntes/reglas_y_usos/at-rules.md)
+
 ## Expresiones
 ## *Proyecto*: sección main
 ## Herencia en SASS
