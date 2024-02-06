@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 body {
   height: 100vh;
   background-color: #FFEFE7;
@@ -27,7 +31,7 @@ header button {
 header button svg {
   height: 32px;
   width: 32px;
-  stroke: #7C6A0A;
+  stroke: #7C5A0A;
 }
 
 .main-section {
@@ -74,7 +78,165 @@ header button svg {
   height: 100%;
 }
 
+.product-section {
+  background-color: #fde6db;
+  padding: 0 10%;
+  padding-bottom: 2rem;
+  margin: 3rem 0;
+}
+.product-section h2 {
+  font-size: 2rem;
+  padding: 2rem 0;
+}
+.product-section .cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  row-gap: 3rem;
+  margin-bottom: 1rem;
+}
+.product-section .product-card {
+  background-color: #FFDAC6;
+  width: 324px;
+  height: 502px;
+  border-radius: 8px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.05);
+}
+.product-section .product-card header {
+  height: 40px;
+  padding: 0;
+  position: relative;
+  background-color: transparent;
+}
+.product-section .product-card header button {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+.product-section .product-card header button svg {
+  stroke: #7C5A0A;
+}
+.product-section .product-card img {
+  width: 241px;
+  height: 300px;
+  margin: 12px 42px;
+  border-radius: 6px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.product-section .product-card h3, .product-section .product-card p {
+  margin: 0 42px;
+}
+
+.furniture .product-card {
+  background-color: #BABD8D;
+  color: #FFFFFF;
+}
+.furniture svg path {
+  stroke: currentColor;
+}
+.furniture svg {
+  color: #FFFFFF;
+}
+
+.about-section {
+  padding: 0 10%;
+}
+.about-section h2 {
+  font-size: 2rem;
+  padding: 2rem 0;
+}
+.about-section .principios {
+  display: flex;
+  padding: 3rem 2rem;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.about-section .principios .earth {
+  padding-left: 4rem;
+  display: flex;
+  width: 50%;
+}
+.about-section .principios .earth p {
+  font-size: 2rem;
+  font-weight: bold;
+  text-wrap: pretty;
+  align-self: center;
+  padding-left: 40px;
+  color: #E86424;
+}
+.about-section .principios .lightbulb {
+  padding-right: 4rem;
+  display: flex;
+  width: 50%;
+}
+.about-section .principios .lightbulb p {
+  font-size: 2rem;
+  font-weight: bold;
+  text-wrap: pretty;
+  align-self: center;
+  padding-left: 40px;
+  color: #E86424;
+}
+.about-section .gallery .image-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+.about-section .gallery figure {
+  width: 398px;
+  aspect-ratio: 1/1;
+}
+.about-section .gallery figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 16px;
+}
+.about-section .gallery figure img:hover {
+  transform: scale(1.1);
+  transition: 0.1s ease;
+}
+.about-section .location {
+  margin-bottom: 5rem;
+}
+.about-section .location h2 {
+  margin: 3rem 0;
+}
+.about-section .location p {
+  color: #E86424;
+}
+.about-section .location p:nth-of-type(1) {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.about-section .location p:nth-of-type(2) {
+  font-size: 1.2rem;
+}
+
 footer {
+  padding: 0 10%;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
   width: 100%;
   background-color: #fe9801;
+  color: #FFFFFF;
+}
+footer h3 {
+  margin: 2rem 0;
+  font-size: 1.6rem;
+}
+footer p {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+footer .socialmedia {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+footer .socialmedia a:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
